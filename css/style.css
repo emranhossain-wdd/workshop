@@ -1,0 +1,88 @@
+/* =============== Global CSS ============== */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:sans-serif;
+}
+section{
+	padding-top:100px;
+	padding-bottom:75px;
+}
+img{
+	width:100%;
+}
+.container{
+	overflow:hidden;
+	width:1100px;
+	margin:auto;
+}
+
+.col-25{
+	width:25%;
+	float:left;
+}
+.col-75{
+	width:75%;
+	float:left;
+}
+.col-50{
+	width:50%;
+	float:left;
+}
+.col-60{
+	width:60%;
+	float:left;
+}
+.col-40{
+	width:40%;
+	float:left;
+	padding-top: 50px;
+    padding-bottom: 40px;
+}
+/* =============== Theme CSS ============== */
+.btn{
+	padding:15px 30px;
+	background-color:#5b98f3;
+	border:0px;
+	font-size:.95rem;
+	color:white;
+}
+.text-center{
+	text-align:center;
+}
+.text-right{
+	text-align:right;
+}
+.white{
+	color:white;
+}
+i{
+	font-size:10rem;
+}
+h1{
+	font-size:2.25rem;
+}
+p{
+	font-size:1rem;
+}
+#layout{
+	background-image:url('../images/background01.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#build{
+	background-image:url('../images/background02.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.choose{
+	background-color:whitesmoke;
+	border-radius:5px;
+	padding:30px;
+	margin:20px;
+}
+.choose:hover{
+	background-color:yellow;
+}
